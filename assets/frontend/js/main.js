@@ -1,4 +1,4 @@
-var base_url = "http://localhost/yeni_film_scripti/";
+var base_url = window.location.protocol + "//" + window.location.hostname.split(3) + "/";
 
 /* PreLoader */
 $(window).on('load', function() { // makes sure the whole site is loaded 
